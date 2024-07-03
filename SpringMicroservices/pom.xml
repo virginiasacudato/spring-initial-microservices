@@ -21,6 +21,7 @@
         <module>microservice-gateway</module>
         <module>microservice-eureka</module>
         <module>microservice-config</module>
+        <module>microservice-student</module>
     </modules>
 
 
@@ -35,6 +36,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
+        </dependency>
+        <dependency>
+            <groupId>me.paulschwarz</groupId>
+            <artifactId>spring-dotenv</artifactId>
+            <version>4.0.0</version>
         </dependency>
     </dependencies>
 
